@@ -36,7 +36,6 @@
 				} else if( i == 100 ) {
 					jQuery('#fizz_buzz_grid tbody').append('</tr>');
 				}
-				
 			}
 		});
 	</script>
