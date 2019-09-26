@@ -33,6 +33,8 @@
 				}
 				if( i%10 == 0 && i < 100 ){
 					jQuery('#fizz_buzz_grid tbody').append('</tr><tr>');
+				} else if( i == 100 ) {
+					jQuery('#fizz_buzz_grid tbody').append('</tr>');
 				}
 				
 			}
